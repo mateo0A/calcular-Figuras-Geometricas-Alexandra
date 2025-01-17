@@ -1,0 +1,28 @@
+body{
+    background: url(trianguloFondo.jpg);
+}
+p{
+    color: white;
+   
+}
+h1{
+    font-size: 90px;
+    color: wheat;
+    text-align: center;
+}
+li{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    background: #000000;
+    padding: 10px;
+}
+a:hover{
+    background: #353333;
+  
+}
+table{
+    color: white;
+}

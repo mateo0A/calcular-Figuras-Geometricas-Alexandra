@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Circulo</title>
+        <link rel="stylesheet" href="circulo.css" type="text/css">
+        <script src="circulo.js " type="text/Javascript"></script>
+    </head>
+    <body>
+        <h1>Circulo</h1>
+        <hr>
+        <br><br>
+        <a href="index.html">Regresar</a>
+        <br><br><br><br><br>
+        <img src="CIRCULO-CARA-COLOR.jpg" alt="">
+        <h2>¿Cómo calcular el área de un círculo?</h2>
+        <p>
+            El área de un círculo se calcula utilizando la fórmula matemática que involucra el radio del círculo. La fórmula para calcular el área de un círculo es:
+        </p>
+        <p>
+            Área = π × radio<sup>2</sup>
+        </p>
+        <p>
+            Donde "π" (pi) es una constante matemática aproximadamente igual a 3.14159, y "radio" es la distancia desde el centro del círculo hasta cualquier punto en su borde.
+        </p>
+        <p>
+            Por ejemplo, si el radio de un círculo es 4 unidades, el área del círculo se calculará de la siguiente manera:
+        </p>
+        <p>
+            Área = π × 4<sup>2</sup> = π × 16 ≈ 3.14159 × 16 ≈ 50.27 unidades cuadradas
+        </p>
+        <p>
+            Es importante recordar que el radio es la mitad del diámetro del círculo. Si solo se conoce el diámetro, se puede dividir por 2 para obtener el radio antes de usar la fórmula del área.
+        </p>
+
+        <h2>Calcular el área</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese el radio del círculo<input type="number" id="radio"></td>
+            </tr>
+            <tr>
+                <td>Área <input type="number" id="respArea" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularArea" onclick="calcularArea();">Calcular Área</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarArea" onclick="borrarArea();">Borrar</button></td>
+            </tr>
+        </table>
+
+        <h2>¿Cómo calcular el perímetro de un círculo?</h2>
+        <p>
+            El perímetro de un círculo, también conocido como circunferencia, se calcula utilizando la fórmula matemática que involucra el diámetro del círculo. La fórmula para calcular el perímetro de un círculo es:
+        </p>
+        <p>
+            Perímetro = π × diámetro
+        </p>
+        <p>
+            Donde "π" (pi) es una constante matemática aproximadamente igual a 3.14159, y "diámetro" es la distancia a través del círculo, pasando por su centro.
+        </p>
+        <p>
+            Si solo se conoce el radio del círculo, se puede calcular el diámetro multiplicando el radio por 2, ya que el diámetro es el doble del radio. La fórmula alternativa utilizando el radio es:
+        </p>
+        <p>
+            Perímetro = 2 × π × radio
+        </p>
+        <p>
+            Por ejemplo, si el radio de un círculo es 4 unidades, el perímetro del círculo se calculará de la siguiente manera:
+        </p>
+        <p>
+            Perímetro = 2 × π × 4 ≈ 2 × 3.14159 × 4 ≈ 25.13 unidades
+        </p>
+        <h2>Calcular el perímetro</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese el radio del círculo<input type="number" id="radioPerimetro"></td>
+            </tr>
+            <tr>
+                <td>Perímetro <input type="number" id="respPerimetro" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularPerimetro" onclick="calcularPerimetro();">Calcular Perímetro</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarPerimetro" onclick="borrarPerimetro();">Borrar</button></td>
+            </tr>
+        </table>
+
+        
+        
+    </body>
+</html>

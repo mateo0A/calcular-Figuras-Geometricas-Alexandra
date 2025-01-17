@@ -1,0 +1,31 @@
+
+img{
+    width: 390px;
+    float: right;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+}
+body{
+    background: url(fondo-cuadrado.jpg) ;
+    color: white;
+}
+table{
+    color: white;
+    margin: auto;
+    background: #052f47;
+    width: 490px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    background: #052f47;
+    padding: 10px;
+}
+a:hover{
+    background: #0a4c6e;
+}

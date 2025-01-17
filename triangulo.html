@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>triangulo</title>
+        <link rel="stylesheet" href="triangulo.css" type="text/css">
+        <script src="triangulo.js" type="text/Javascript"></script>
+    </head>
+    <body>
+        <h1>Triangulo</h1>
+        <hr>
+        <br><br><br>
+        <a href="index.html">Regresar</a>
+        <br><br><br>
+        <img src="triangulo.jpg" alt="">
+        <p>
+            El triángulo es una figura geométrica bidimensional que tiene tres lados, tres ángulos y tres vértices. Los triángulos pueden clasificarse en diferentes tipos según la longitud de sus lados y la medida de sus ángulos. Algunos de los tipos de triángulos más comunes son:
+        </p>
+        <ul>
+            <li>Triángulo equilátero: tiene tres lados de igual longitud y tres ángulos de 60 grados.</li>
+            <li>Triángulo isósceles: tiene dos lados de igual longitud y dos ángulos de igual medida.</li>
+            <li>Triángulo escaleno: tiene tres lados de diferente longitud y tres ángulos de diferente medida.</li>
+        </ul>
+        <p>
+            Los triángulos son fundamentales en la geometría y se utilizan en diversas disciplinas como la arquitectura, la ingeniería y la física. Los triángulos tienen propiedades únicas que los hacen útiles para calcular áreas, perímetros y otras medidas en diferentes contextos.
+        </p>
+        <p>
+            Por ejemplo, el área de un triángulo se puede calcular utilizando la fórmula A = 1/2 * b * h, donde A es el área del triángulo, b es la base y h es la altura. El perímetro de un triángulo se calcula sumando la longitud de sus tres lados.
+        </p>
+        <p>
+            Los triángulos también se utilizan en trigonometría para calcular ángulos y distancias en problemas de navegación, astronomía y otras áreas. La comprensión de los triángulos y sus propiedades es esencial para resolver problemas matemáticos y científicos de manera efectiva.
+        </p>
+
+        <h2>Calcular el área</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese la base del triángulo<input type="number" id="base"></td>
+            </tr>
+            <tr>
+                <td>Ingrese la altura del triángulo<input type="number" id="altura"></td>
+            </tr>
+            <tr>
+                <td>Área <input type="number" id="respArea" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularArea" onclick="calcularArea();">Calcular Área</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarArea" onclick="borrarArea();">Borrar</button></td>
+            </tr>
+        </table>
+
+        <h2>Calcular el perímetro</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese el lado A del triángulo<input type="number" id="ladoA"></td>
+            </tr>
+            <tr>
+                <td>Ingrese el lado B del triángulo<input type="number" id="ladoB"></td>
+            </tr>
+            <tr>
+                <td>Ingrese el lado C del triángulo<input type="number" id="ladoC"></td>
+            </tr>
+            <tr>
+                <td>Perímetro <input type="number" id="respPerimetro" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularPerimetro" onclick="calcularPerimetro();">Calcular Perímetro</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarPerimetro" onclick="borrarPerimetro();">Borrar</button></td>
+            </tr>
+        </table>
+
+    </body>
+</html>

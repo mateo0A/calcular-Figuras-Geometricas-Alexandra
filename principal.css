@@ -1,0 +1,27 @@
+body{
+    background: url(wallpapersden.com_minimalist-landscape-painting_1920x1080.jpg)  ;
+    color: white;
+  
+   
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+table{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(149, 22, 180);
+    border: 10px rgb(199, 17, 123) solid; 
+}
+ol{
+    color: white;
+}
+img{
+    width: 290px;
+    margin-left:35% ;
+}
+.figura{
+    text-align: center;
+}

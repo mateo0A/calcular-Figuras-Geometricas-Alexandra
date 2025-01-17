@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Cuadrado</title>
+    <link rel="stylesheet" href="cuadrado.css" type="text/css">
+    <script type="text/Javascript" src="cuadrado.js"></script>
+</head>
+<body>
+    <h1>Cuadrado</h1>
+    <hr>
+    <a href="index.html">Regresar</a>
+    <img src="cuadrado.jpg" alt="Imagen de un cuadrado">
+    <h2>¿Qué es un cuadrado?</h2>
+    <p>
+        Un cuadrado es una figura geométrica de cuatro lados iguales y cuatro ángulos rectos (90 grados). Es un tipo especial de rectángulo y un caso particular de paralelogramo. Todos los lados del cuadrado tienen la misma longitud, y sus diagonales son iguales y se cruzan en ángulos rectos.
+    </p>
+    <h2>¿Cómo calcular el área de un cuadrado?</h2>
+    <p>
+        El área de un cuadrado se calcula multiplicando la longitud de uno de sus lados por sí misma. La fórmula para calcular el área de un cuadrado es:
+    </p>
+    <p>
+        Área = lado × lado
+    </p>
+    <p>
+        Por ejemplo, si la longitud de un lado del cuadrado es 5 unidades, el área del cuadrado será:
+    </p>
+    <p>
+        Área = 5 × 5 = 25 unidades cuadradas
+    </p>
+
+    <br><br><br><br><br>
+    <table border="1">
+        <tr>
+            <td><h2>Calcular el área</h2></td>
+        </tr>
+        <tr>
+            <td>Ingrese un lado del cuadrado<input type="number" id="lado"></td>
+        </tr>
+        <tr>
+            <td>Respuesta <input type="number" id="resp" readonly></td>
+        </tr>
+        <tr>
+            <td><button id="calcular" onclick="area();">Calcular Área</button></td>
+        </tr>
+        <tr>
+            <td><button id="calcular" onclick="perimetro();">Calcular Perímetro</button></td>
+        </tr>
+        <tr>
+            <td><button id="calcular" onclick="borra();">Borrar</button></td>
+        </tr>
+    </table>
+
+    
+
+    <h2>¿Cómo calcular el perímetro de un cuadrado?</h2>
+    <p>
+        El perímetro de un cuadrado se calcula sumando la longitud de todos sus lados. Dado que todos los lados de un cuadrado son iguales, la fórmula para calcular el perímetro es:
+    </p>
+    <p>
+        <strong>Perímetro = 4 × lado</strong>
+    </p>
+    <p>
+        Por ejemplo, si la longitud de un lado del cuadrado es 5 unidades, el perímetro del cuadrado será:
+    </p>
+    <p>
+        <strong>Perímetro = 4 × 5 = 20 unidades</strong>
+    </p>
+
+    
+    <table border="1">
+        <tr>
+            <td><h2>Calcular el perímetro</h2></td>
+        </tr>
+        <tr>
+            <td>Ingrese un lado del cuadrado<input type="number" id="ladoPerimetro"></td>
+        </tr>
+        <tr>
+            <td>Perímetro <input type="number" id="respPerimetro" readonly></td>
+        </tr>
+        <tr>
+            <td><button id="calcularPerimetro" onclick="calcularPerimetro();">Calcular Perímetro</button></td>
+        </tr>
+        <tr>
+            <td><button id="borrarPerimetro" onclick="borrarPerimetro();">Borrar</button></td>
+        </tr>
+    </table>
+    
+
+</body>
+</html>

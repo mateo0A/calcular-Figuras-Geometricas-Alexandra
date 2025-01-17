@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Rectangulo</title>
+        <link rel="stylesheet" href="rectangulo.css" type="text/css">
+        <script src="rectangulo.js" type="text/Javascript"></script>
+    </head>
+    <body>
+        <h1>Rectangulo</h1>
+        <hr>
+        <br><br><br>
+        <a href="index.html">Regresar</a>
+        <br><br><br>
+        <img src="rectangulo.jpg" alt="">
+        <p>
+            El rectángulo es una figura geométrica bidimensional que tiene cuatro lados, cuatro ángulos rectos y lados opuestos de igual longitud. Los lados opuestos de un rectángulo son paralelos y sus ángulos miden 90 grados. La longitud de los lados de un rectángulo se puede calcular utilizando la fórmula L = 2l + 2w, donde L es el perímetro del rectángulo, l es la longitud y w es el ancho.
+        </p>
+        <p>
+            El área de un rectángulo se puede calcular utilizando la fórmula A = l * w, donde A es el área del rectángulo, l es la longitud y w es el ancho. Los rectángulos son comunes en la vida cotidiana y se utilizan en la arquitectura, la ingeniería y el diseño para crear estructuras y objetos que sean estables y funcionales.
+        </p>
+        <p>
+            Los rectángulos también se utilizan en matemáticas para enseñar conceptos como perímetro, área y propiedades geométricas. El estudio de los rectángulos y otras figuras geométricas es fundamental para desarrollar habilidades de razonamiento espacial y lógico en los estudiantes.
+        </p>
+
+        <h2>Calcular el área</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese la longitud del rectángulo<input type="number" id="longitud"></td>
+            </tr>
+            <tr>
+                <td>Ingrese el ancho del rectángulo<input type="number" id="ancho"></td>
+            </tr>
+            <tr>
+                <td>Área <input type="number" id="respArea" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularArea" onclick="calcularArea();">Calcular Área</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarArea" onclick="borrarArea();">Borrar</button></td>
+            </tr>
+        </table>
+
+        <h2>¿Cómo calcular el perímetro de un rectángulo?</h2>
+        <p>
+            El perímetro de un rectángulo se calcula sumando la longitud de todos sus lados. Dado que los lados opuestos de un rectángulo son iguales, la fórmula para calcular el perímetro es:
+        </p>
+        <p>
+            <strong>Perímetro = 2 × (longitud + ancho)</strong>
+        </p>
+        <p>
+            Donde "longitud" es la medida de uno de los lados más largos del rectángulo y "ancho" es la medida de uno de los lados más cortos.
+        </p>
+        <p>
+            Por ejemplo, si la longitud de un rectángulo es 8 unidades y el ancho es 3 unidades, el perímetro del rectángulo se calculará de la siguiente manera:
+        </p>
+        <p>
+            <strong>Perímetro = 2 × (8 + 3) = 2 × 11 = 22 unidades</strong>
+        </p>
+
+        <h2>Calcular el perímetro</h2>
+        <table border="1">
+            <tr>
+                <td>Ingrese la longitud del rectángulo<input type="number" id="longitudPerimetro"></td>
+            </tr>
+            <tr>
+                <td>Ingrese el ancho del rectángulo<input type="number" id="anchoPerimetro"></td>
+            </tr>
+            <tr>
+                <td>Perímetro <input type="number" id="respPerimetro" readonly></td>
+            </tr>
+            <tr>
+                <td><button id="calcularPerimetro" onclick="calcularPerimetro();">Calcular Perímetro</button></td>
+            </tr>
+            <tr>
+                <td><button id="borrarPerimetro" onclick="borrarPerimetro();">Borrar</button></td>
+            </tr>
+        </table>
+
+        
+    </body>
+</html>

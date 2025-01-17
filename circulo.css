@@ -1,0 +1,27 @@
+body{
+    background: url(circuloFondo.webp) ;
+    
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+}
+img{
+    width: 190px;
+    float: left;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background: #052f47;
+    padding: 10px;
+}
+a:hover{
+    background: #0a4c6e;
+}
